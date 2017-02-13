@@ -10,7 +10,6 @@
 4. **NFL_Plot**: Descriptive Statistics of the data.
 
 ## R shiny apps    
-Interactive plots of data  
 1. **NFL_DataDownloadApp.R**;     
 2. **NFL_PlotAppOneTeam.R**;   
 3. **NFL_PlotAppTwoTeam.R**.     
