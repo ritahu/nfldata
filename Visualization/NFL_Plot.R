@@ -102,11 +102,11 @@ drawit<-function(yr){
 }
 finaldraw=function(a,b)
 {
-  for (i in 1:10)
+  for (i in 1:100)
     print(drawit(a))
   for (i in a:b)
     print(drawit(i))
-  for (i in 1:10)
+  for (i in 1:100)
     print(drawit(b))
 }
 library(animation)

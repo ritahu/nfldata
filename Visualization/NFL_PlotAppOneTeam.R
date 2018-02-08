@@ -6,10 +6,12 @@
 #
 #    http://shiny.rstudio.com/
 #
-setwd("/Users/user/Desktop/Classes/STAT 425/Projects/")
+#setwd("/Users/user/Desktop/Classes/STAT 425/Projects/")
 library(shiny)
 library(ggplot2)
-load("NFL_Data.Rdata")
+#load("NFL_Data.Rdata")
+NFL_Data<-read.csv("https://github.com/ritahu/nfldata/blob/master/Data/NFL_Data.csv")
+NFL_Data <- NFL_Data[,-1]
 
 # Define UI for application that draws a histogram
 ui <- shinyUI(pageWithSidebar(
